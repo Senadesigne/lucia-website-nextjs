@@ -20,7 +20,7 @@ const AboutAuthorSection = () => {
               
               <p className="text-lg text-foreground/90 leading-relaxed">
                 Her debut trilogy has enchanted readers worldwide, earning critical acclaim 
-                for its rich character development and immersive world-building. When she's 
+                for its rich character development and immersive world-building. When she&apos;s 
                 not writing, Lucy can be found exploring ancient ruins, studying rare manuscripts, 
                 or dreaming up her next magical adventure.
               </p>

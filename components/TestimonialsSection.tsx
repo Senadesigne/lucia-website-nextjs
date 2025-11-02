@@ -39,7 +39,7 @@ const TestimonialsSection = () => {
               </div>
               
               <p className="text-lg text-foreground/90 leading-relaxed mb-6 italic">
-                "{testimonial.text}"
+                &quot;{testimonial.text}&quot;
               </p>
               
               <div className="border-t border-primary/20 pt-4">
