@@ -1,0 +1,10 @@
+- Glavni tehnološki okvir: Next.js 14 (App Router), React, TypeScript, Tailwind CSS.
+- Koristi Next.js file-based routing (App Router). Ne koristiti `react-router-dom`.
+- Za svu navigaciju, koristi `next/link` komponentu, ne `<a>` tag.
+- Za sve slike, koristi `next/image` komponentu za optimizaciju. Slike se nalaze u `public/` direktoriju.
+- Slijedi funkcionalni programski stil s jasnim, malim i reaktivnim komponentama.
+- Za dodavanje novih paketa, koristi naredbu `npm install`.
+- Koristi `zod` i `react-hook-form` za validaciju `NewsletterForm` komponente.
+- API rute (za Fazu 2) kreiraju se unutar `app/api/` direktorija (Next.js serverless funkcije).
+- Sav kod koji koristi browser API-je (npr. `window`, `document`) mora biti u klijentskim komponentama (`'use client'`).
+- Metadata i SEO tagovi definiraju se kroz `export const metadata: Metadata` u `layout.tsx` i `page.tsx` datotekama.
