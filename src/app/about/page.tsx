@@ -59,12 +59,12 @@ const About = () => {
                 
                 <div className="relative">
                   <div className="absolute -inset-4 bg-gradient-to-br from-sapphire to-primary rounded-lg opacity-20 blur-2xl" />
-                  <div className="relative w-full aspect-square">
+                  <div className="relative w-full max-w-md mx-auto h-[500px]">
                     <Image 
                       src="/author-image.jpg" 
                       alt="Lucy Wren" 
                       fill
-                      className="rounded-lg shadow-2xl object-cover"
+                      className="rounded-lg shadow-2xl object-contain"
                       priority
                     />
                   </div>

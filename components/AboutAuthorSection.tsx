@@ -39,7 +39,7 @@ const AboutAuthorSection = () => {
                   src="/author-image.jpg" 
                   alt="Lucy Wren" 
                   fill
-                  className="object-cover rounded-lg shadow-2xl"
+                  className="object-contain rounded-lg shadow-2xl"
                 />
               </div>
             </div>
